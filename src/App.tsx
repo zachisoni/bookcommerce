@@ -9,7 +9,7 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <div className="bg-gray-100 py-2">
+    <div className="bg-gray-100 pb-4">
       <Router>
         <Routes>
           <Route path='/' element={<Home />} />
